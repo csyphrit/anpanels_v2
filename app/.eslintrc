@@ -1,0 +1,75 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "env": {
+        "commonjs": true,
+        "node": true,
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "plugins": ["react", "import", "react-hooks"],
+    "ignorePatterns": ["node_modules/", "*.config.js"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "settings": {
+        "react": {
+            "version": "latest"
+        }
+    },
+    "rules": {
+        "no-var": "error",
+        "prefer-rest-params": "error",
+        "no-eval": "error",
+        "no-implied-eval": "error",
+        "eqeqeq": "error",
+        "new-parens": "error",
+        "no-sequences": "error",
+        "no-new-wrappers": "error",
+        "default-case": "error",
+        "no-shadow-restricted-names": "error",
+        "no-throw-literal": "error",
+        "no-implicit-coercion": "error",
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-tabs": "error",
+        "eol-last": "error",
+        "no-trailing-spaces": "error",
+        "semi": "error",
+        "semi-style": [
+            "error",
+            "last"
+        ],
+        "comma-style": [
+            "error",
+            "last"
+        ],
+        "comma-dangle": [
+            "error",
+            "only-multiline"
+        ],
+        "dot-location": [
+            "error",
+            "property"
+        ],
+        "camelcase": "error",
+        "nonblock-statement-body-position": "error",
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/react-in-jsx-scope": "error",
+        "react/jsx-no-duplicate-props": "error",
+        "react/jsx-no-undef": "error",
+        "react/require-render-return": "error",
+        "react/no-string-refs": "error",
+        "react/no-deprecated": "error",
+        "react/no-direct-mutation-state": "warn",
+        "react/no-access-state-in-setstate": "warn"
+    }
+}
