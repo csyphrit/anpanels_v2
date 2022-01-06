@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Anime North Panelist Registration v2
+        Anime North Panelist Registration
       </header>
     </div>
   );
