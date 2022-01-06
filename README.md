@@ -4,7 +4,7 @@ ANPanels is a volunteer-built project for the Anime North Japanese animation con
 
 ## Getting Started
 
-TBD
+1. Rename /api/config/db.config.js.example to db.config.js and replace the dummy data with your MySQL database connection information.
 
 ### Prerequisites
 
