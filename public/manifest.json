@@ -1,0 +1,9 @@
+{
+  "short_name": "ANPanels",
+  "name": "Anime North Panel Registration",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
